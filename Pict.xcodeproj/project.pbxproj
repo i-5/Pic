@@ -1,0 +1,334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA22B0F6140F21F300D8A505 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA22B0F5140F21F300D8A505 /* UIKit.framework */; };
+		AA22B0F8140F21F300D8A505 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA22B0F7140F21F300D8A505 /* Foundation.framework */; };
+		AA22B0FA140F21F300D8A505 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA22B0F9140F21F300D8A505 /* CoreGraphics.framework */; };
+		AA22B100140F21F300D8A505 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA22B0FE140F21F300D8A505 /* InfoPlist.strings */; };
+		AA22B102140F21F300D8A505 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA22B101140F21F300D8A505 /* main.m */; };
+		AA22B106140F21F300D8A505 /* PictAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA22B105140F21F300D8A505 /* PictAppDelegate.m */; };
+		AA22B109140F21F300D8A505 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA22B107140F21F300D8A505 /* MainWindow.xib */; };
+		AA22B10C140F21F300D8A505 /* PictViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA22B10B140F21F300D8A505 /* PictViewController.m */; };
+		AA22B10F140F21F300D8A505 /* PictViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA22B10D140F21F300D8A505 /* PictViewController.xib */; };
+		AA22B11F140F227B00D8A505 /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = AA22B115140F227B00D8A505 /* 0.png */; };
+		AA22B120140F227B00D8A505 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = AA22B116140F227B00D8A505 /* 1.png */; };
+		AA22B121140F227B00D8A505 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = AA22B117140F227B00D8A505 /* 2.png */; };
+		AA22B122140F227B00D8A505 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = AA22B118140F227B00D8A505 /* 3.png */; };
+		AA22B123140F227B00D8A505 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = AA22B119140F227B00D8A505 /* 4.png */; };
+		AA22B124140F227B00D8A505 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = AA22B11A140F227B00D8A505 /* 5.png */; };
+		AA22B125140F227B00D8A505 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = AA22B11B140F227B00D8A505 /* 6.png */; };
+		AA22B126140F227B00D8A505 /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = AA22B11C140F227B00D8A505 /* 7.png */; };
+		AA22B127140F227B00D8A505 /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = AA22B11D140F227B00D8A505 /* 8.png */; };
+		AA22B128140F227B00D8A505 /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = AA22B11E140F227B00D8A505 /* 9.png */; };
+		AA22B12B140F424100D8A505 /* PageView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA22B12A140F424100D8A505 /* PageView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA22B0F1140F21F300D8A505 /* Pict.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pict.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA22B0F5140F21F300D8A505 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AA22B0F7140F21F300D8A505 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AA22B0F9140F21F300D8A505 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AA22B0FD140F21F300D8A505 /* Pict-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pict-Info.plist"; sourceTree = "<group>"; };
+		AA22B0FF140F21F300D8A505 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AA22B101140F21F300D8A505 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA22B103140F21F300D8A505 /* Pict-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pict-Prefix.pch"; sourceTree = "<group>"; };
+		AA22B104140F21F300D8A505 /* PictAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PictAppDelegate.h; sourceTree = "<group>"; };
+		AA22B105140F21F300D8A505 /* PictAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PictAppDelegate.m; sourceTree = "<group>"; };
+		AA22B108140F21F300D8A505 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		AA22B10A140F21F300D8A505 /* PictViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PictViewController.h; sourceTree = "<group>"; };
+		AA22B10B140F21F300D8A505 /* PictViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PictViewController.m; sourceTree = "<group>"; };
+		AA22B10E140F21F300D8A505 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PictViewController.xib; sourceTree = "<group>"; };
+		AA22B115140F227B00D8A505 /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
+		AA22B116140F227B00D8A505 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		AA22B117140F227B00D8A505 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		AA22B118140F227B00D8A505 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		AA22B119140F227B00D8A505 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		AA22B11A140F227B00D8A505 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		AA22B11B140F227B00D8A505 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		AA22B11C140F227B00D8A505 /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		AA22B11D140F227B00D8A505 /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
+		AA22B11E140F227B00D8A505 /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9.png; sourceTree = "<group>"; };
+		AA22B129140F424100D8A505 /* PageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageView.h; sourceTree = "<group>"; };
+		AA22B12A140F424100D8A505 /* PageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA22B0EE140F21F300D8A505 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA22B0F6140F21F300D8A505 /* UIKit.framework in Frameworks */,
+				AA22B0F8140F21F300D8A505 /* Foundation.framework in Frameworks */,
+				AA22B0FA140F21F300D8A505 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA22B0E6140F21F300D8A505 = {
+			isa = PBXGroup;
+			children = (
+				AA22B0FB140F21F300D8A505 /* Pict */,
+				AA22B0F4140F21F300D8A505 /* Frameworks */,
+				AA22B0F2140F21F300D8A505 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA22B0F2140F21F300D8A505 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA22B0F1140F21F300D8A505 /* Pict.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA22B0F4140F21F300D8A505 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA22B0F5140F21F300D8A505 /* UIKit.framework */,
+				AA22B0F7140F21F300D8A505 /* Foundation.framework */,
+				AA22B0F9140F21F300D8A505 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA22B0FB140F21F300D8A505 /* Pict */ = {
+			isa = PBXGroup;
+			children = (
+				AA22B115140F227B00D8A505 /* 0.png */,
+				AA22B116140F227B00D8A505 /* 1.png */,
+				AA22B117140F227B00D8A505 /* 2.png */,
+				AA22B118140F227B00D8A505 /* 3.png */,
+				AA22B119140F227B00D8A505 /* 4.png */,
+				AA22B11A140F227B00D8A505 /* 5.png */,
+				AA22B11B140F227B00D8A505 /* 6.png */,
+				AA22B11C140F227B00D8A505 /* 7.png */,
+				AA22B11D140F227B00D8A505 /* 8.png */,
+				AA22B11E140F227B00D8A505 /* 9.png */,
+				AA22B104140F21F300D8A505 /* PictAppDelegate.h */,
+				AA22B105140F21F300D8A505 /* PictAppDelegate.m */,
+				AA22B107140F21F300D8A505 /* MainWindow.xib */,
+				AA22B10A140F21F300D8A505 /* PictViewController.h */,
+				AA22B10B140F21F300D8A505 /* PictViewController.m */,
+				AA22B10D140F21F300D8A505 /* PictViewController.xib */,
+				AA22B0FC140F21F300D8A505 /* Supporting Files */,
+				AA22B129140F424100D8A505 /* PageView.h */,
+				AA22B12A140F424100D8A505 /* PageView.m */,
+			);
+			path = Pict;
+			sourceTree = "<group>";
+		};
+		AA22B0FC140F21F300D8A505 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA22B0FD140F21F300D8A505 /* Pict-Info.plist */,
+				AA22B0FE140F21F300D8A505 /* InfoPlist.strings */,
+				AA22B101140F21F300D8A505 /* main.m */,
+				AA22B103140F21F300D8A505 /* Pict-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA22B0F0140F21F300D8A505 /* Pict */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA22B112140F21F300D8A505 /* Build configuration list for PBXNativeTarget "Pict" */;
+			buildPhases = (
+				AA22B0ED140F21F300D8A505 /* Sources */,
+				AA22B0EE140F21F300D8A505 /* Frameworks */,
+				AA22B0EF140F21F300D8A505 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pict;
+			productName = Pict;
+			productReference = AA22B0F1140F21F300D8A505 /* Pict.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA22B0E8140F21F300D8A505 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = AA22B0EB140F21F300D8A505 /* Build configuration list for PBXProject "Pict" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AA22B0E6140F21F300D8A505;
+			productRefGroup = AA22B0F2140F21F300D8A505 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA22B0F0140F21F300D8A505 /* Pict */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA22B0EF140F21F300D8A505 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA22B100140F21F300D8A505 /* InfoPlist.strings in Resources */,
+				AA22B109140F21F300D8A505 /* MainWindow.xib in Resources */,
+				AA22B10F140F21F300D8A505 /* PictViewController.xib in Resources */,
+				AA22B11F140F227B00D8A505 /* 0.png in Resources */,
+				AA22B120140F227B00D8A505 /* 1.png in Resources */,
+				AA22B121140F227B00D8A505 /* 2.png in Resources */,
+				AA22B122140F227B00D8A505 /* 3.png in Resources */,
+				AA22B123140F227B00D8A505 /* 4.png in Resources */,
+				AA22B124140F227B00D8A505 /* 5.png in Resources */,
+				AA22B125140F227B00D8A505 /* 6.png in Resources */,
+				AA22B126140F227B00D8A505 /* 7.png in Resources */,
+				AA22B127140F227B00D8A505 /* 8.png in Resources */,
+				AA22B128140F227B00D8A505 /* 9.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA22B0ED140F21F300D8A505 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA22B102140F21F300D8A505 /* main.m in Sources */,
+				AA22B106140F21F300D8A505 /* PictAppDelegate.m in Sources */,
+				AA22B10C140F21F300D8A505 /* PictViewController.m in Sources */,
+				AA22B12B140F424100D8A505 /* PageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA22B0FE140F21F300D8A505 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA22B0FF140F21F300D8A505 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AA22B107140F21F300D8A505 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA22B108140F21F300D8A505 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		AA22B10D140F21F300D8A505 /* PictViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA22B10E140F21F300D8A505 /* en */,
+			);
+			name = PictViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA22B110140F21F300D8A505 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AA22B111140F21F300D8A505 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA22B113140F21F300D8A505 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pict/Pict-Prefix.pch";
+				INFOPLIST_FILE = "Pict/Pict-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AA22B114140F21F300D8A505 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pict/Pict-Prefix.pch";
+				INFOPLIST_FILE = "Pict/Pict-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA22B0EB140F21F300D8A505 /* Build configuration list for PBXProject "Pict" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA22B110140F21F300D8A505 /* Debug */,
+				AA22B111140F21F300D8A505 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA22B112140F21F300D8A505 /* Build configuration list for PBXNativeTarget "Pict" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA22B113140F21F300D8A505 /* Debug */,
+				AA22B114140F21F300D8A505 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA22B0E8140F21F300D8A505 /* Project object */;
+}
